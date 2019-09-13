@@ -3,7 +3,7 @@ ns3-gym
 
 [OpenAI Gym](https://gym.openai.com/) is a toolkit for reinforcement learning (RL) widely used in research. The network simulator [ns–3](https://www.nsnam.org/) is the de-facto standard for academic and industry studies in the areas of networking protocols and communication technologies. ns3-gym is a framework that integrates both OpenAI Gym and ns-3 in order to encourage usage of RL in networking research.
 
-Installation (MAC os)
+Installation (MAC OS)
 =====================
 The original installation (introduced later) works only on Ubuntu system. Here, I list the key steps for installing gym-ns3 on MAC os. 
 1. Install all required dependencies required by ns-3: gcc g++ python3.
@@ -11,7 +11,7 @@ The original installation (introduced later) works only on Ubuntu system. Here, 
 ```
 brew install zmq
 ```
-Copy the required file "zmq.hpp" to */usr/local/include/*. (Errors happen without doing this step. The "zmq.hpp" file is added in the main folder.)
+Copy the required file "zmq.hpp" to */usr/local/include/*. (Errors happen without this step. The "zmq.hpp" file is added in the main folder.)
 4.5.6 are the same as the original installation. Have a good luck with your installation!
 
 Installation (Ubuntu)
