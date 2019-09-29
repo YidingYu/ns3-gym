@@ -6,7 +6,7 @@ ns3-gym
 Installation (MAC OS)
 =====================
 The original installation (introduced later) works only on Ubuntu system. Here, I list the key steps for installing gym-ns3 on MAC os. 
-1. Install all required dependencies required by ns-3: gcc g++ python3.
+1. Install all required dependencies by ns-3: gcc g++ python3.
 2. Install Protocol Buffers libs. Follow this [link](https://medium.com/@erika_dike/installing-the-protobuf-compiler-on-a-mac-a0d397af46b8) on Medium and install ZMQ.
 ```
 brew install zmq
