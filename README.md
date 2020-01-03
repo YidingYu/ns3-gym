@@ -45,6 +45,12 @@ apt-get install protobuf-compiler
 ```
 pip3 install ./src/opengym/model/ns3gym
 ```
+The following method cannot import ns3gym in other location except the ./src/opengym/model/ns3gym.
+Use the following command instead (suppose now you are in the ns3-gym folder).
+```
+cd /src/opengym/model/ns3gym
+python3 setup.py install
+```
 
 5. (Optional) Install all libraries required by your agent (like tensorflow, keras, etc.).
 
